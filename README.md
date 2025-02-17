@@ -9,5 +9,9 @@ Doing everything from a command prompt or Git Bash (no IDEs allowed), your missi
 
 **Changes to code**
 
+21: static JComboBox cBox1 changed to static JComboBox<String> cBox1;
+
+43: cBox1 = new JComboBox(s1) changed to cBox1 = new JComboBox<String>(s1);
 
 **What caused it to stop working?**
+JcomboBox was initialized with the generic data-type <E> (as default), therfore, it gave us a warning since we were using <Strings>
