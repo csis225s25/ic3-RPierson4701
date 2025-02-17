@@ -4,6 +4,8 @@ I used ComboBoxDemo.java a few years ago.  It used to compile cleanly.  Even tho
 
 Doing everything from a command prompt or Git Bash (no IDEs allowed), your mission is to debug the code and find out why it stopped compiling cleanly.  When you have figured it out,  note what you changed and why it stopped working in the README.md file.
 
+##Riley Pierson and Alejandro Perez Jorda
+##2/17/2025
 
 **Changes to code**
 
